@@ -1,0 +1,20 @@
+//
+//  JDSinaWeibo.pch
+//  SinaWeibo_Objective-C
+//
+//  Created by SteveChiang on 15/11/25.
+//  Copyright © 2015年 SteveChiang. All rights reserved.
+//
+
+#ifndef JDSianWeibo_pch
+#define JDSianWeibo_pch
+
+#ifdef DEBUG
+// debug模式下的log：
+#define SWLog(...) NSLog(__VA_ARGS__)
+#else
+// release模式的log：
+#define SWLog(...)
+#endif
+
+#endif
